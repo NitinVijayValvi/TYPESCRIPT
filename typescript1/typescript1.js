@@ -1,8 +1,5 @@
-/* var sum = (x:number,y:number,z:number): number => {
-        return	x+y+z;
-}
-console.log(sum(20,25,30));
- */
+/*  Create an arrow function which will take multiple inputs and you have to print he
+minimum number from it. */
 var temp;
 var min = function (x, y, z) {
     {

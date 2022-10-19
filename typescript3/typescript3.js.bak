@@ -1,0 +1,14 @@
+var start = parseInt(prompt("Enter strating num"));
+var end = parseInt(prompt("Enter end num"));
+var total = 0;
+var count = (end - start) + 1;
+console.log("average :" + start + "and" + end + "is");
+var result = function (start, end) {
+    for (start = start; start <= end; start++)
+        total = total + start;
+    var average = total / count;
+    return average;
+};
+console.log("total sum " + total);
+console.log("no. of elements" + count);
+console.log(result(1,10));
